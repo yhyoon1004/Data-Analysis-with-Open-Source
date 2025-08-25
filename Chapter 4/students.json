@@ -1,0 +1,7 @@
+[
+    {"id": 101, "name": "김철수", "database": 85, "python": 78, "cloud": 92},
+    {"id": 102, "name": "이영희", "database": 76, "python": 82, "cloud": 78},
+    {"id": 103, "name": "박지민", "database": 92, "python": 95, "cloud": 85},
+    {"id": 104, "name": "최준서", "database": 63, "python": 70, "cloud": 75},
+    {"id": 105, "name": "정미나", "database": 88, "python": 84, "cloud": 91}
+]
