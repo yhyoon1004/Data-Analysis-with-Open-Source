@@ -25,4 +25,7 @@ df_sort_multi = df.sort_values(by=['학년', '학점'], ascending=[True, False])
 print(df_sort_multi)
 print('-----')
 
-#DataFrame 인덱스 기분 오른차순, 내림차순 정렬
+#DataFrame 인덱스 기본 오른차순, 내림차순 정렬
+df_sort_index = df.sort_index(ascending=False)
+print(df_sort_index)
+print('-----')
