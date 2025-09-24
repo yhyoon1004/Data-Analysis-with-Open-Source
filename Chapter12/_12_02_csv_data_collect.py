@@ -1,6 +1,8 @@
 import glob
 import pandas as pd
 
+print("12-02----------------------------------------")
+
 ## CSV 파일 목록 가져오기
 all_files = glob.glob("./tpss_bcycl_od_statnhm_202303/tpss_bcycl_od_statnhm_*.csv")
 dataframes = []

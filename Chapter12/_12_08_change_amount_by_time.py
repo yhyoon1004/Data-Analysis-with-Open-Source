@@ -1,8 +1,10 @@
-import matplotlib.pyplot as plt
 from _12_07_day_by_usage_visualize import *
 
 plt.rc('font', family='AppleGothic')
 plt.rcParams['axes.unicode_minus'] = False
+
+print("12-08----------------------------------------")
+
 
 ## '출발_시' 컬럼 생성 (기준_시간대 // 100)
 df['출발_시'] = df['기준_시간대'] // 100

@@ -1,4 +1,8 @@
-from _12_02_csv_data_collect import *
+import pandas as pd
+from _12_04_strange_remove import *
+
+
+print("12-05----------------------------------------")
 
 ## '기준_날짜' 컬럼 datetime 형식으로 변환 (%Y%m%d)
 df['기준_날짜'] = pd.to_datetime(df['기준_날짜'], format='%Y%m%d')
